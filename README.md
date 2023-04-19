@@ -6,9 +6,6 @@
 This tutorial outlines the post-install configuration of the open-source help desk ticketing system osTicket.<br />
 
 
-<h2>Video Demonstration</h2>
-
-- ### [YouTube: How To Configure osTicket, post-installation](https://www.youtube.com)
 
 <h2>Environments and Technologies Used</h2>
 
@@ -38,7 +35,10 @@ This tutorial outlines the post-install configuration of the open-source help de
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Configure Roles: 
+    A. Admin Panel -> Agents -> Roles -> Supreme Admin
+    B. Permissions-> Click all the permissions, go to each permissions tab and click all the boxes there as well save.
+I have created a new role and named it supreme admin.
 </p>
 <br />
 
@@ -46,7 +46,9 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Configure Departments:
+    A. Admin Panel -> Agents -> Create Departments-> System Administrators-> Default Settings
+I have added a new department named System Administrators with default settings.
 </p>
 <br />
 
@@ -54,6 +56,67 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Configure Teams:
+    A. Admin Panel -> Agents -> Teams-> Level II Support -> Create Team
+I have created a new team named Level II Support and added myself as a user in the team.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Allow anyone to create tickets:
+    A. Admin Panel -> Settings -> User Settings
+    B. Registration Required: This requires registration and login to create tickets; make sure this box is unchecked
+I have allowed anyone to create tickets by unchecking the 'Registration Required' box.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Configure Agents (workers): 
+    A. Admin Panel -> Agents -> Add New
+      i. Jane
+      ii. John
+I have added new agents Jane doe and John doe.
+</p>
+<br />
+
+<p>
+Configure Users (customers): 
+    A. Switch to Agent Panel -> Users -> Add New
+      i. Karen
+      ii. Ken
+I have added customers Karen Karen and Ken Ken.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Configure SLA:
+    A. Admin Panel -> Manage -> SLA
+      i. Sev-A (1 hour, 24/7)
+      ii. Sev-B (4 hours, 24/7)
+      iii. Sev-C (8 hours, business hours)
+I have created the SLA for the help topics. A service-level agreement (SLA) defines the level of service and standards expected by a customer from the help desk.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Configure Help Topics:
+    A. Admin Panel -> Manage -> Help Topics
+      i. Business Critical Outage
+      ii. Personal Computer Issues
+      iii. Equipment Request
+       iv. Password Reset
+I have created 4 help topics. A Help Topic is an identifier used to help the customer choose what problem their experience and helps agents with identifying solutions in a timely manner.
 </p>
 <br />
