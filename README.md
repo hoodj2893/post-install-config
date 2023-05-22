@@ -122,7 +122,7 @@ I have added customers Karen Karen and Ken Ken.
 <img src="https://i.imgur.com/5RKqon5.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-<img src="https://i.imgur.com/OxKRkDd.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/7UFdbU5.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Configure SLA:
@@ -135,7 +135,7 @@ I have created the SLA for the help topics. A service-level agreement (SLA) defi
 <br />
 
 <p>
-<img src="https://i.imgur.com/7UFdbU5.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/OxKRkDd.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 <img src="https://i.imgur.com/LTl3OpG.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
